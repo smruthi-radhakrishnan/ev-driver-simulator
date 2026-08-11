@@ -1,0 +1,12 @@
+numpy>=1.24
+pandas>=2.0
+plotly>=5.18
+streamlit>=1.30
+
+# Testing only.
+pytest>=7.4
+
+# Optional: static PNG export from scripts/run_headless.py. Plotly 6.x needs
+# kaleido>=1.0; plotly 5.x needs kaleido==0.2.1. The script falls back to HTML if
+# the installed pair is incompatible, so this is genuinely optional.
+# kaleido==0.2.1
