@@ -29,12 +29,12 @@ from app.state import (  # noqa: E402
     request_run,
 )
 
-st.set_page_config(page_title="EV charging ABM", page_icon="🔌", layout="wide")
+st.set_page_config(page_title="EV charging agent-based model", page_icon="🔌", layout="wide")
 
 
 def sidebar() -> None:
     with st.sidebar:
-        st.title("EV charging ABM")
+        st.title("EV charging agent-based model")
         st.caption(
             "Agent-based model of EV home charging across six driver archetypes, "
             "simulated over a single 24-hour window anchored at noon."
@@ -90,12 +90,12 @@ def main() -> None:
     init_state()
     sidebar()
 
-    intro, rationale, population, assumptions, results, export = st.tabs(
+    intro, population, assumptions, rationale, results, export = st.tabs(
         [
             "Introduction",
-            "Approach, Assumptions & Rationale",
             "Population",
             "Assumptions",
+            "Rationale",
             "Results",
             "Export",
         ]

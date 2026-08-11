@@ -8,6 +8,10 @@ Each agent is simulated individually (plug-in and plug-out times, charge schedul
 State of Charge over time). The population is then aggregated into the headline view:
 share of the fleet plugged in, and the State of Charge distribution, over 24 hours.
 
+**▶ Try it: [ev-driver-simulator-sr.streamlit.app](https://ev-driver-simulator-sr.streamlit.app/)**
+— no install needed. Set the population size and seed in the sidebar, then press Run
+simulation.
+
 ## Quick start
 
 ```bash
